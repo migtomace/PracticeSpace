@@ -22,7 +22,7 @@ public class MedianOfTwoArrays {
         return d;
     }
 
-    public int[] createSingleArray(int[] nums1, int[] nums2, int left, int right, int index, int[] arr){
+    private int[] createSingleArray(int[] nums1, int[] nums2, int left, int right, int index, int[] arr){
 
 
         if(index < nums1.length + nums2.length && left != nums1.length && right != nums2.length){
